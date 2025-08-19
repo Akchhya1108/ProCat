@@ -1,10 +1,9 @@
-# 🐱 ProCat – Your Productivity Cat
+# ProCat – Your Productivity Cat
 
-ProCat is a fun little Chrome Extension that keeps you company while you work.  
-A cute animated cat sits inside your browser popup, showing different moods depending on your focus, breaks, or idle time. ✨  
-![alt text](image.png)
+ProCat is a cute lil Chrome Extension that keeps you company while you work.  
+A animated cat sits inside your browser popup, showing different moods depending on your focus, breaks, or idle time.
 
-## ✨ Features
+## Features
 - 🐾 **Mood animations**: The cat wiggles, bounces, or shakes depending on its current mood.  
 - 🎨 **Tailwind CSS styling** for a clean UI.  
 - 🎬 **Framer Motion animations** to bring the cat to life.  
