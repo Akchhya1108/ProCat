@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Productivity Cat",
   "version": "1.0",
-  "description": "A cute cat that helps you stay productive with Pomodoro timers! and entertains you sometimes",
+  "description": "A cute cat that helps you stay productive with Pomodoro timers and entertains you sometimes!",
   "action": {
     "default_popup": "index.html",
     "default_icon": {
@@ -11,5 +11,17 @@
       "128": "cat.png"
     }
   },
-  "permissions": ["storage", "notifications", "alarms"]
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "notifications",
+    "alarms"
+  ],
+  "icons": {
+    "16": "cat.png",
+    "48": "cat.png",
+    "128": "cat.png"
+  }
 }
